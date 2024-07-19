@@ -1,5 +1,7 @@
 # keycloakServer
-This repository keeps a docker compose responsible for starting a keycloak connected to postgres and importing a realm configuration
+This repository keeps a docker compose responsible for starting a keycloak connected to postgres and importing a realm configuration.
+Keycloak is a powerfull authority server who helps you to provide authentication and authorization using OIDC protocol.
+
 
 ## Requirements for execution
  1 - Docker installed with compose support
@@ -20,3 +22,5 @@ This repository keeps a docker compose responsible for starting a keycloak conne
  7 - Login into keycloak with user admin password admin
 
  Now, you should be able to access Keycloak with imported healm located into config directory
+
+### ** Enjoy your Authority Server! ;)
